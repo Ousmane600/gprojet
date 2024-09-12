@@ -10,3 +10,6 @@ def login_view(request):
 def profil_view(request):
    return render(request, 'profil.html')
 
+def sigup_view(request):
+   return render(request, 'sigup.html')
+
